@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://api.deezer.com/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/auth/*"
+  to = "https://connect.deezer.com/oauth/:splat"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
